@@ -1,0 +1,92 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {portuges}{}\relax 
+\contentsline {chapter}{\numberline {1}Índice das estruturas de dados}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Estruturas de dados}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Índice dos ficheiros}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista de ficheiros}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Documentação da estruturas de dados}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Referência à estrutura Dieta}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Descrição detalhada}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Documentação dos campos e atributos}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}alimento}{5}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}calorias}{5}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}data}{6}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}numPaciente}{6}{subsubsection.3.1.2.4}%
+\contentsline {subsubsection}{\numberline {3.1.2.5}refeicao}{6}{subsubsection.3.1.2.5}%
+\contentsline {section}{\numberline {3.2}Referência à estrutura Paciente}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Descrição detalhada}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Documentação dos campos e atributos}{6}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}nome}{6}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}numPaciente}{7}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}telemovel}{7}{subsubsection.3.2.2.3}%
+\contentsline {section}{\numberline {3.3}Referência à estrutura Plano\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Nutricional}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Descrição detalhada}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Documentação dos campos e atributos}{7}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}calMAX}{7}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}calMIN}{8}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}data}{8}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}numPaciente}{8}{subsubsection.3.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.3.2.5}refeicao}{8}{subsubsection.3.3.2.5}%
+\contentsline {chapter}{\numberline {4}Documentação do ficheiro}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Referência ao ficheiro funcoes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Descrição detalhada}{10}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Documentação das funções}{10}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}calcularMediaCalMax()}{10}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}calcularMediaCalMin()}{10}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}calcularMediaCalorias()}{11}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}listarPlano()}{11}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}MediaCalorias()}{12}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}MostrarTabela()}{12}{subsubsection.4.1.2.6}%
+\contentsline {subsubsection}{\numberline {4.1.2.7}numPacientesUltrapassaram()}{13}{subsubsection.4.1.2.7}%
+\contentsline {subsubsection}{\numberline {4.1.2.8}PacientesForaLimites()}{14}{subsubsection.4.1.2.8}%
+\contentsline {section}{\numberline {4.2}Referência ao ficheiro Gestao\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Descrição detalhada}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Documentação das funções}{15}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}ConverterInfoDietaBinario()}{15}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}ConverterPacienteBinario()}{16}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}ConverterPlanoNutricionalBinario()}{16}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}ImportarInfoDieta()}{16}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}ImportarPacientes()}{17}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}ImportarPlanoNutricional()}{17}{subsubsection.4.2.2.6}%
+\contentsline {section}{\numberline {4.3}Referência ao ficheiro Gestao\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Descrição detalhada}{18}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Documentação das macros}{19}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}N}{19}{subsubsection.4.3.2.1}%
+\contentsline {subsection}{\numberline {4.3.3}Documentação das funções}{19}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}ConverterInfoDietaBinario()}{19}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}ConverterPacienteBinario()}{19}{subsubsection.4.3.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}ConverterPlanoNutricionalBinario()}{20}{subsubsection.4.3.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.4}ImportarInfoDieta()}{20}{subsubsection.4.3.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.3.5}ImportarPacientes()}{20}{subsubsection.4.3.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.3.6}ImportarPlanoNutricional()}{21}{subsubsection.4.3.3.6}%
+\contentsline {section}{\numberline {4.4}Gestao\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ficheiros.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Referência ao ficheiro global.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Descrição detalhada}{22}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Documentação das macros}{22}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}false}{22}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}K}{22}{subsubsection.4.5.2.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.3}MAX\_DATAS}{22}{subsubsection.4.5.2.3}%
+\contentsline {subsubsection}{\numberline {4.5.2.4}MAX\_PACIENTES}{22}{subsubsection.4.5.2.4}%
+\contentsline {subsubsection}{\numberline {4.5.2.5}N}{22}{subsubsection.4.5.2.5}%
+\contentsline {subsubsection}{\numberline {4.5.2.6}true}{22}{subsubsection.4.5.2.6}%
+\contentsline {subsubsection}{\numberline {4.5.2.7}X}{23}{subsubsection.4.5.2.7}%
+\contentsline {section}{\numberline {4.6}global.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{23}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Referência ao ficheiro main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c}{23}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Descrição detalhada}{23}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Documentação das funções}{24}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}main()}{24}{subsubsection.4.7.2.1}%
+\contentsline {section}{\numberline {4.8}Referência ao ficheiro Paciente.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{27}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Documentação das macros}{28}{subsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}N}{28}{subsubsection.4.8.1.1}%
+\contentsline {subsection}{\numberline {4.8.2}Documentação dos tipos}{29}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}Dieta}{29}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}Paciente}{29}{subsubsection.4.8.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}PlanoNutricional}{29}{subsubsection.4.8.2.3}%
+\contentsline {subsection}{\numberline {4.8.3}Documentação das funções}{29}{subsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.3.1}listarPlano()}{29}{subsubsection.4.8.3.1}%
+\contentsline {subsubsection}{\numberline {4.8.3.2}MediaCalorias()}{30}{subsubsection.4.8.3.2}%
+\contentsline {subsubsection}{\numberline {4.8.3.3}MostrarTabela()}{30}{subsubsection.4.8.3.3}%
+\contentsline {subsubsection}{\numberline {4.8.3.4}numPacientesUltrapassaram()}{31}{subsubsection.4.8.3.4}%
+\contentsline {subsubsection}{\numberline {4.8.3.5}PacientesForaLimites()}{31}{subsubsection.4.8.3.5}%
+\contentsline {section}{\numberline {4.9}Paciente.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{32}{section.4.9}%
+\contentsline {chapter}{\'Indice}{35}{section*.14}%

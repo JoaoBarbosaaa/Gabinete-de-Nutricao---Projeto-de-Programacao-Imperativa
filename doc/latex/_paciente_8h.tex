@@ -1,0 +1,229 @@
+\doxysection{Referência ao ficheiro Paciente.\+h}
+\hypertarget{_paciente_8h}{}\label{_paciente_8h}\index{Paciente.h@{Paciente.h}}
+{\ttfamily \#include "{}global.\+h"{}}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsubsection*{Estruturas de Dados}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_paciente}{Paciente}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa um paciente. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_dieta}{Dieta}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa informacoes sobre a dieta de um paciente. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa um plano nutricional para um paciente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}~20
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Definições de tipos}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct_paciente}{Paciente}} \mbox{\hyperlink{_paciente_8h_a6240fb2932a9284c16ce2e9e5a0cd52c}{Paciente}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa um paciente. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{struct_dieta}{Dieta}} \mbox{\hyperlink{_paciente_8h_a6f83799b601e8700ef5d0939b7a95edf}{Dieta}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa informacoes sobre a dieta de um paciente. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} \mbox{\hyperlink{_paciente_8h_a21f627070d08791849908afad6957ccf}{Plano\+Nutricional}}
+\begin{DoxyCompactList}\small\item\em Estrutura que representa um plano nutricional para um paciente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_paciente_8h_af476b82c14b923505206dd2aa142f211}{num\+Pacientes\+Ultrapassaram}} (\mbox{\hyperlink{struct_dieta}{Dieta}} dieta\mbox{[}$\,$\mbox{]}, int tamanho\+Dieta, int valor\+Ultrapassar, char data\+Inicio\mbox{[}$\,$\mbox{]}, char data\+Fim\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Conta o numero de pacientes cujas dietas ultrapassaram um valor especifico de calorias em um intervalo de datas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_paciente_8h_aa50076839db60addb6622589fee2da91}{Pacientes\+Fora\+Limites}} (\mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} plano\mbox{[}$\,$\mbox{]}, int tamanho\+Plano, \mbox{\hyperlink{struct_dieta}{Dieta}} dieta\mbox{[}$\,$\mbox{]}, int tamanho\+Dieta, char data\+Inicio\mbox{[}$\,$\mbox{]}, char data\+Fim\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Identifica e exibe os numeros dos pacientes cujas dietas estao fora dos limites do plano nutricional em um intervalo de datas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_paciente_8h_ad5c4c49ea3409e69e3e40eaf78de71b3}{listar\+Plano}} (int num\+Paciente, \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} plano\mbox{[}$\,$\mbox{]}, int tamanho\+Plano, char data\+Inicio\mbox{[}$\,$\mbox{]}, char data\+Fim\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Lista o plano nutricional de um paciente para um intervalo de datas especifico. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{_paciente_8h_a816a7cfc78f042866c8eb390cdd5a725}{Media\+Calorias}} (int num\+Paciente, \mbox{\hyperlink{struct_dieta}{Dieta}} dieta\mbox{[}$\,$\mbox{]}, int tamanho\+Dieta, char refeicao\mbox{[}$\,$\mbox{]}, char data\+Inicio\mbox{[}$\,$\mbox{]}, char data\+Fim\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Calcula a media de calorias consumidas por refeicao por um paciente durante um periodo especifico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_paciente_8h_ae37bca207fa08112010f901a32ddc32b}{Mostrar\+Tabela}} (\mbox{\hyperlink{struct_dieta}{Dieta}} dieta\mbox{[}$\,$\mbox{]}, int tamanho\+Dieta, \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} plano\mbox{[}$\,$\mbox{]}, int tamanho\+Plano, \mbox{\hyperlink{struct_paciente}{Paciente}} pacientes\mbox{[}$\,$\mbox{]}, int tamanho\+Pacientes, char inicio\mbox{[}$\,$\mbox{]}, char fim\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Mostra uma tabela com informacoes sobre a dieta e o plano nutricional dos pacientes em um determinado intervalo de datas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das macros}
+\Hypertarget{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}\label{_paciente_8h_a0240ac851181b84ac374872dc5434ee4} 
+\index{Paciente.h@{Paciente.h}!N@{N}}
+\index{N@{N}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{N}{N}}
+{\footnotesize\ttfamily \#define N~20}
+
+
+
+\doxysubsection{Documentação dos tipos}
+\Hypertarget{_paciente_8h_a6f83799b601e8700ef5d0939b7a95edf}\label{_paciente_8h_a6f83799b601e8700ef5d0939b7a95edf} 
+\index{Paciente.h@{Paciente.h}!Dieta@{Dieta}}
+\index{Dieta@{Dieta}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{Dieta}{Dieta}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_dieta}{Dieta}} \mbox{\hyperlink{struct_dieta}{Dieta}}}
+
+
+
+Estrutura que representa informacoes sobre a dieta de um paciente. 
+
+Esta estrutura armazena dados sobre a dieta de um paciente, incluindo o numero do paciente, a data da dieta, o tipo de refeicao, o alimento consumido e a quantidade de calorias. \Hypertarget{_paciente_8h_a6240fb2932a9284c16ce2e9e5a0cd52c}\label{_paciente_8h_a6240fb2932a9284c16ce2e9e5a0cd52c} 
+\index{Paciente.h@{Paciente.h}!Paciente@{Paciente}}
+\index{Paciente@{Paciente}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{Paciente}{Paciente}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_paciente}{Paciente}} \mbox{\hyperlink{struct_paciente}{Paciente}}}
+
+
+
+Estrutura que representa um paciente. 
+
+Esta estrutura armazena informacoes sobre um paciente, incluindo um identificador unico, nome e numero de telefone. \Hypertarget{_paciente_8h_a21f627070d08791849908afad6957ccf}\label{_paciente_8h_a21f627070d08791849908afad6957ccf} 
+\index{Paciente.h@{Paciente.h}!PlanoNutricional@{PlanoNutricional}}
+\index{PlanoNutricional@{PlanoNutricional}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{PlanoNutricional}{PlanoNutricional}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}}
+
+
+
+Estrutura que representa um plano nutricional para um paciente. 
+
+Esta estrutura armazena informacoes sobre um plano nutricional para um paciente, incluindo o numero do paciente, a data do plano, o tipo de refeicao, e os valores maximo e minimo de calorias permitidas na refeicao. 
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{_paciente_8h_ad5c4c49ea3409e69e3e40eaf78de71b3}\label{_paciente_8h_ad5c4c49ea3409e69e3e40eaf78de71b3} 
+\index{Paciente.h@{Paciente.h}!listarPlano@{listarPlano}}
+\index{listarPlano@{listarPlano}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{listarPlano()}{listarPlano()}}
+{\footnotesize\ttfamily void listar\+Plano (\begin{DoxyParamCaption}\item[{int}]{num\+Paciente,  }\item[{\mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}}]{plano\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Plano,  }\item[{char}]{data\+Inicio\mbox{[}$\,$\mbox{]},  }\item[{char}]{data\+Fim\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Lista o plano nutricional de um paciente para um intervalo de datas especifico. 
+
+Esta funcao percorre um array de planos nutricionais e exibe as informacoes de refeicao, maximo e minimo de calorias para um paciente especifico durante um intervalo de datas especificado.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em num\+Paciente} & O numero do paciente para o qual o plano nutricional sera listado. \\
+\hline
+{\em plano} & Um array de planos nutricionais contendo as informacoes caloricas. \\
+\hline
+{\em tamanho\+Plano} & O numero de elementos no array de planos nutricionais. \\
+\hline
+{\em data\+Inicio} & A data de inicio do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & A data de fim do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_paciente_8h_a816a7cfc78f042866c8eb390cdd5a725}\label{_paciente_8h_a816a7cfc78f042866c8eb390cdd5a725} 
+\index{Paciente.h@{Paciente.h}!MediaCalorias@{MediaCalorias}}
+\index{MediaCalorias@{MediaCalorias}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{MediaCalorias()}{MediaCalorias()}}
+{\footnotesize\ttfamily float Media\+Calorias (\begin{DoxyParamCaption}\item[{int}]{num\+Paciente,  }\item[{\mbox{\hyperlink{struct_dieta}{Dieta}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Dieta,  }\item[{char}]{refeicao\mbox{[}$\,$\mbox{]},  }\item[{char}]{data\+Inicio\mbox{[}$\,$\mbox{]},  }\item[{char}]{data\+Fim\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Calcula a media de calorias consumidas por refeicao por um paciente durante um periodo especifico. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em num\+Paciente} & Numero do paciente para o qual a media e calculada. \\
+\hline
+{\em dieta} & Array de estruturas \doxylink{struct_dieta}{Dieta} contendo informacoes sobre as dietas dos pacientes. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de estruturas \doxylink{struct_dieta}{Dieta}. \\
+\hline
+{\em refeicao} & Tipo de refeicao para a qual a media e calculada. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo para o calculo da media. \\
+\hline
+{\em data\+Fim} & Data de termino do periodo para o calculo da media. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A media de calorias consumidas por refeicao pelo paciente durante o periodo especificado.
+\end{DoxyReturn}
+Esta funcao calcula a media de calorias consumidas por refeicao por um paciente especifico durante um periodo determinado. Se as datas de inicio e termino nao estiverem no intervalo das datas presentes no array de dietas, a funcao retorna 0. Caso contrario, ela calcula a media corretamente. \Hypertarget{_paciente_8h_ae37bca207fa08112010f901a32ddc32b}\label{_paciente_8h_ae37bca207fa08112010f901a32ddc32b} 
+\index{Paciente.h@{Paciente.h}!MostrarTabela@{MostrarTabela}}
+\index{MostrarTabela@{MostrarTabela}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{MostrarTabela()}{MostrarTabela()}}
+{\footnotesize\ttfamily void Mostrar\+Tabela (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_dieta}{Dieta}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Dieta,  }\item[{\mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}}]{plano\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Plano,  }\item[{\mbox{\hyperlink{struct_paciente}{Paciente}}}]{pacientes\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Pacientes,  }\item[{char}]{inicio\mbox{[}$\,$\mbox{]},  }\item[{char}]{fim\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Mostra uma tabela com informacoes sobre a dieta e o plano nutricional dos pacientes em um determinado intervalo de datas. 
+
+Esta funcao exibe uma tabela que contem informacoes sobre a dieta e o plano nutricional de cada paciente durante um intervalo de datas especifico. A tabela inclui o numero do paciente, nome, tipo de refeicao, inicio e fim do intervalo, minimo (media) e maximo(media) de calorias permitidas, e o consumo medio de calorias.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em dieta} & Um array de dietas contendo as informacoes caloricas. \\
+\hline
+{\em tamanho\+Dieta} & O numero de elementos no array de dietas. \\
+\hline
+{\em plano} & Um array de planos nutricionais contendo as informacoes caloricas. \\
+\hline
+{\em tamanho\+Plano} & O numero de elementos no array de planos nutricionais. \\
+\hline
+{\em pacientes} & Um array de pacientes contendo informacoes pessoais. \\
+\hline
+{\em tamanho\+Pacientes} & O numero de elementos no array de pacientes. \\
+\hline
+{\em inicio} & A data de inicio do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+{\em fim} & A data de fim do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_paciente_8h_af476b82c14b923505206dd2aa142f211}\label{_paciente_8h_af476b82c14b923505206dd2aa142f211} 
+\index{Paciente.h@{Paciente.h}!numPacientesUltrapassaram@{numPacientesUltrapassaram}}
+\index{numPacientesUltrapassaram@{numPacientesUltrapassaram}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{numPacientesUltrapassaram()}{numPacientesUltrapassaram()}}
+{\footnotesize\ttfamily int num\+Pacientes\+Ultrapassaram (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_dieta}{Dieta}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Dieta,  }\item[{int}]{valor\+Ultrapassar,  }\item[{char}]{data\+Inicio\mbox{[}$\,$\mbox{]},  }\item[{char}]{data\+Fim\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Conta o numero de pacientes cujas dietas ultrapassaram um valor especifico de calorias em um intervalo de datas. 
+
+Esta funcao percorre um array de dietas e conta o numero de pacientes cujas dietas ultrapassaram um determinado valor de calorias dentro de um intervalo de datas especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em dieta} & Um array de dietas contendo as informacoes caloricas. \\
+\hline
+{\em tamanho\+Dieta} & O numero de elementos no array de dietas. \\
+\hline
+{\em valor\+Ultrapassar} & O valor de calorias a ser comparado para determinar a ultrapassagem. \\
+\hline
+{\em data\+Inicio} & A data de inicio do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & A data de fim do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}.\\
+\hline
+\end{DoxyParams}
+Caso pelo menos uma das datas nao esteja dentro do intervalo a funcao retorna -\/1.
+
+\begin{DoxyReturn}{Retorna}
+Retorna o numero de pacientes cujas dietas ultrapassaram o valor especificado no intervalo de datas. 
+\end{DoxyReturn}
+\Hypertarget{_paciente_8h_aa50076839db60addb6622589fee2da91}\label{_paciente_8h_aa50076839db60addb6622589fee2da91} 
+\index{Paciente.h@{Paciente.h}!PacientesForaLimites@{PacientesForaLimites}}
+\index{PacientesForaLimites@{PacientesForaLimites}!Paciente.h@{Paciente.h}}
+\doxysubsubsection{\texorpdfstring{PacientesForaLimites()}{PacientesForaLimites()}}
+{\footnotesize\ttfamily void Pacientes\+Fora\+Limites (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}}]{plano\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Plano,  }\item[{\mbox{\hyperlink{struct_dieta}{Dieta}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho\+Dieta,  }\item[{char}]{data\+Inicio\mbox{[}$\,$\mbox{]},  }\item[{char}]{data\+Fim\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Identifica e exibe os numeros dos pacientes cujas dietas estao fora dos limites do plano nutricional em um intervalo de datas. 
+
+Esta funcao compara as informacoes de plano nutricional com as informacoes de dieta e identifica os pacientes cujas dietas ultrapassam os limites especificados no plano nutricional dentro de um intervalo de datas especifico. Em seguida, exibe os numeros desses pacientes em ordem decrescente.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em plano} & Um array de planos nutricionais contendo os limites caloricos. \\
+\hline
+{\em tamanho\+Plano} & O numero de elementos no array de planos nutricionais. \\
+\hline
+{\em dieta} & Um array de dietas contendo as informacoes caloricas. \\
+\hline
+{\em tamanho\+Dieta} & O numero de elementos no array de dietas. \\
+\hline
+{\em data\+Inicio} & A data de inicio do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & A data de fim do intervalo desejado no formato "{}\+DD-\/\+MM-\/\+AAAA"{}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna true se a operacao for bem-\/sucedida e false se o tamanho de dieta ou plano for nao positivo. 
+\end{DoxyReturn}

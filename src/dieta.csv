@@ -1,0 +1,31 @@
+Número do Paciente;data;refeição;alimento;calorias
+1;01/01/2023;pequeno almoço;pão;150
+1;01/01/2023;almoço;prato de carne ;1600
+1;01/01/2023;jantar;filetes;550
+1;02/01/2023;pequeno almoço;ovos;500
+1;02/01/2023;almoço ;massa;1600
+1;02/01/2023;jantar;frango;1500
+2;01/10/2023;pequeno almoço;omolete;600
+2;01/01/2023;almoço;arroz;800
+2;01/01/2023;jantar;frango ;1200
+2;02/01/2023;pequeno almoço;bolo;325
+2;02/01/2023;almoço;massa;1400
+2;02/01/2023;jantar;peixe;1000
+3;01/01/2023;pequeno almoço;pão;150
+3;01/01/2023;almoço;sopa;500
+3;01/01/2023;jantar;Big Mac;2000
+3;02/01/2023;pequeno almoço;panquecas;600
+3;02/01/2023;almoço ;ovos;500
+3;02/01/2023;jantar;coelho;800
+4;01/01/2023;pequeno almoço;bolo;250
+4;01/01/2023;almoço;batatas fritas;800
+4;01/01/2023;jantar;sopa;600
+4;02/01/2023;pequeno almoço;nada;0
+4;02/01/2023;almoço ;sopa;300
+4;02/01/2023;jantar;sopa;300
+5;01/01/2023;pequeno almoço;bolachas;55
+5;01/01/2023;almoço;frango;1000
+5;01/01/2023;jantar;sopa;270
+5;02/01/2023;pequeno almoço;leite;400
+5;02/01/2023;almoço ;peixe;900
+5;02/01/2023;jantar;massa;1300

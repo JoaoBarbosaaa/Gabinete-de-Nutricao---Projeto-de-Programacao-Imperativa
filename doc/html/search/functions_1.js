@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['importarinfodieta_0',['importarinfodieta',['../_gestao_ficheiros_8c.html#a0ced8bde1045daced8e650c31c1b765d',1,'ImportarInfoDieta(char nomeFicheiro[], Dieta dieta[], int tamanho):&#160;GestaoFicheiros.c'],['../_gestao_ficheiros_8h.html#a35fdd1d7c951afa2834b290968ea5707',1,'ImportarInfoDieta(char nomeFicheiro[], Paciente dieta[], int tamanho):&#160;GestaoFicheiros.h']]],
+  ['importarpacientes_1',['importarpacientes',['../_gestao_ficheiros_8c.html#a53bb823f37f35e6d92f02011a70ea5d9',1,'ImportarPacientes(char nomeFicheiro[], Paciente pacientes[], int maximoPacientes):&#160;GestaoFicheiros.c'],['../_gestao_ficheiros_8h.html#ae4489a51f13789ed0444fa662481d39b',1,'ImportarPacientes(char nomeFiceiro[], Paciente pacientes[], int maximoPacientes):&#160;GestaoFicheiros.c']]],
+  ['importarplanonutricional_2',['importarplanonutricional',['../_gestao_ficheiros_8c.html#a52beeba17ebe094997adf84b9b135b44',1,'ImportarPlanoNutricional(char nomeFicheiro[], PlanoNutricional plano[], int tamanho):&#160;GestaoFicheiros.c'],['../_gestao_ficheiros_8h.html#a87942eaf4cb1cea8ba70dae2f9199aa8',1,'ImportarPlanoNutricional(char nomeFicheiro[], Paciente plano[], int tamanho):&#160;GestaoFicheiros.h']]]
+];

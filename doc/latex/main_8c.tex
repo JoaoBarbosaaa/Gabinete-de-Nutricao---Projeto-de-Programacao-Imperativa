@@ -1,0 +1,259 @@
+\doxysection{Referência ao ficheiro main.\+c}
+\hypertarget{main_8c}{}\label{main_8c}\index{main.c@{main.c}}
+
+
+~\newline
+  
+
+
+{\ttfamily \#include "{}global.\+h"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+~\newline
+ 
+
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Autor}
+Joao Barbosa 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Data}
+21.\+12.\+2023 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Joao Barbosa, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Array de objetos \doxylink{struct_paciente}{Paciente}.
+
+Este array armazena objetos \doxylink{struct_paciente}{Paciente} para representar informacoes sobre pacientes. O tamanho do array e definido por K.
+
+Importa dados de pacientes de um arquivo CSV.
+
+A funcao Importar\+Pacientes e utilizada para ler dados de pacientes de um arquivo CSV e armazena-\/los no array de objetos \doxylink{struct_paciente}{Paciente}.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em arquivo\+CSV} & Nome do arquivo CSV contendo os dados dos pacientes. \\
+\hline
+{\em pacientes} & Array de objetos \doxylink{struct_paciente}{Paciente} para armazenar os dados importados. \\
+\hline
+{\em tamanho\+Pacientes} & Tamanho do array de pacientes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Numero de pacientes importados com sucesso.
+\end{DoxyReturn}
+Converte dados de pacientes para formato binario e salva em um arquivo.
+
+A funcao Converter\+Paciente\+Binario e utilizada para converter os dados dos pacientes para um formato binario e salvar o resultado em um arquivo mais seguro.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Arquivo} & Nome do arquivo binario de destino. \\
+\hline
+{\em pacientes} & Array de objetos \doxylink{struct_paciente}{Paciente} contendo os dados a serem convertidos. \\
+\hline
+{\em tamanho\+Pacientes} & Tamanho do array de pacientes.\\
+\hline
+\end{DoxyParams}
+Array de objetos \doxylink{struct_dieta}{Dieta}.
+
+Este array armazena objetos \doxylink{struct_dieta}{Dieta} para representar informacoes sobre a dieta dos pacientes. O tamanho do array e definido por K.
+
+Importa informacoes da dieta de um arquivo CSV.
+
+A funcao Importar\+Info\+Dieta e utilizada para ler informacoes da dieta de um arquivo CSV e armazena-\/las no array de objetos \doxylink{struct_dieta}{Dieta}.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em arquivo\+CSV} & Nome do arquivo CSV contendo as informacoes da dieta. \\
+\hline
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} para armazenar as informacoes importadas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas.\\
+\hline
+\end{DoxyParams}
+Converte informacoes da dieta para formato binario e salva em um arquivo.
+
+A funcao Converter\+Info\+Dieta\+Binario e utilizada para converter as informacoes da dieta para um formato binario e salvar o resultado em um arquivo.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Arquivo} & Nome do arquivo binario de destino. \\
+\hline
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} contendo as informacoes a serem convertidas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas.\\
+\hline
+\end{DoxyParams}
+Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional}.
+
+Este array armazena objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} para representar informacoes sobre os planos nutricionais. O tamanho do array e definido por K.
+
+Importa informacoes do plano nutricional de um arquivo CSV.
+
+A funcao Importar\+Plano\+Nutricional e utilizada para ler informacoes do plano nutricional de um arquivo CSV e armazena-\/las no array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional}.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em arquivo\+CSV} & Nome do arquivo CSV contendo as informacoes do plano nutricional. \\
+\hline
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} para armazenar as informacoes importadas. \\
+\hline
+{\em tamanho\+Plano} & Tamanho do array de planos nutricionais.\\
+\hline
+\end{DoxyParams}
+Converte informacoes do plano nutricional para formato binario e salva em um arquivo.
+
+A funcao Converter\+Plano\+Nutricional\+Binario e utilizada para converter as informacoes do plano nutricional para um formato binario e salvar o resultado em um arquivo.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Arquivo} & Nome do arquivo binario de destino. \\
+\hline
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} contendo as informacoes a serem convertidas. \\
+\hline
+{\em tamanho\+Plano} & Tamanho do array de planos nutricionais.\\
+\hline
+\end{DoxyParams}
+Calcula o tamanho do array de dietas.
+
+Esta linha de codigo determina o tamanho do array de dietas dividindo o tamanho total do array pelo tamanho de um elemento do array.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Tamanho do array de dietas.
+\end{DoxyReturn}
+Calcula o tamanho do array de planos nutricionais.
+
+Esta linha de codigo determina o tamanho do array de planos nutricionais dividindo o tamanho total do array pelo tamanho de um elemento do array.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Tamanho do array de planos nutricionais.
+\end{DoxyReturn}
+Calcula o tamanho do array de pacientes.
+
+Esta linha de codigo determina o tamanho do array de pacientes dividindo o tamanho total do array pelo tamanho de um elemento do array.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em pacientes} & Array de objetos \doxylink{struct_paciente}{Paciente}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Tamanho do array de pacientes.
+\end{DoxyReturn}
+Calcula o numero de pacientes que ultrapassaram um limite de calorias em um periodo especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} contendo as informacoes sobre as calorias consumidas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas. \\
+\hline
+{\em valor\+Ultrapassar} & Limite de calorias a ser ultrapassado. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & Data de fim do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O numero de pacientes que ultrapassaram o limite de calorias.
+\end{DoxyReturn}
+Verifica e lista pacientes fora dos limites de calorias durante um periodo especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} contendo as informacoes sobre os planos nutricionais. \\
+\hline
+{\em tamanho\+Plano} & Tamanho do array de planos nutricionais. \\
+\hline
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} contendo as informacoes sobre as calorias consumidas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & Data de fim do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}.\\
+\hline
+\end{DoxyParams}
+Lista informacoes do plano nutricional para um paciente durante um periodo especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em num\+Paciente} & Numero do paciente associado ao plano nutricional. \\
+\hline
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} contendo as informacoes sobre os planos nutricionais. \\
+\hline
+{\em tamanho\+Plano} & Tamanho do array de planos nutricionais. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & Data de fim do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}.\\
+\hline
+\end{DoxyParams}
+Calcula a media de calorias consumidas por um paciente em uma refeicao durante um periodo especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em num\+Paciente} & Numero do paciente associado as dietas. \\
+\hline
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} contendo as informacoes sobre as calorias consumidas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas. \\
+\hline
+{\em refeicao} & Tipo de refeicao para calcular a media de calorias. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & Data de fim do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A media de calorias consumidas pelo paciente na refeicao durante o periodo especificado.
+\end{DoxyReturn}
+Mostra uma tabela com informacoes de dieta, plano nutricional e pacientes durante um periodo especifico.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em dieta} & Array de objetos \doxylink{struct_dieta}{Dieta} contendo as informacoes sobre as calorias consumidas. \\
+\hline
+{\em tamanho\+Dieta} & Tamanho do array de dietas. \\
+\hline
+{\em plano} & Array de objetos \doxylink{struct_plano_nutricional}{Plano\+Nutricional} contendo as informacoes sobre os planos nutricionais. \\
+\hline
+{\em tamanho\+Plano} & Tamanho do array de planos nutricionais. \\
+\hline
+{\em pacientes} & Array de objetos \doxylink{struct_paciente}{Paciente} contendo as informacoes dos pacientes. \\
+\hline
+{\em tamanho\+Pacientes} & Tamanho do array de pacientes. \\
+\hline
+{\em data\+Inicio} & Data de inicio do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}. \\
+\hline
+{\em data\+Fim} & Data de fim do periodo, a data de ser apresentada no formato "{}\+DD/\+MM/\+AAAA"{}.\\
+\hline
+\end{DoxyParams}

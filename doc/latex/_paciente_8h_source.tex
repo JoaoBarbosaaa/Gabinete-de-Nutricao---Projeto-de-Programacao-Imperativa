@@ -1,0 +1,62 @@
+\doxysection{Paciente.\+h}
+\hypertarget{_paciente_8h_source}{}\label{_paciente_8h_source}\mbox{\hyperlink{_paciente_8h}{Ir para a documentação deste ficheiro.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{global_8h}{global.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ N\ 20}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_paciente}{Paciente}}\ \{}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_paciente_ae81c280189d6f26c66892e0bd64225d0}{numPaciente}};\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_paciente_ad09a39820e617f7fad90bf22bf41ec4e}{nome}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_paciente_a4d5e79367210ce250c8b8de1cd322a83}{telemovel}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00027\ \}\ \mbox{\hyperlink{struct_paciente}{Paciente}};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_dieta}{Dieta}}\ \{}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_dieta_ae81c280189d6f26c66892e0bd64225d0}{numPaciente}};\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_dieta_ac0bfad8d0e883974294739763dc0ead8}{data}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_dieta_a36e3fe8b56f0594b51046496f67d412c}{refeicao}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_dieta_a464a04535482961486eae3be7ecf5942}{alimento}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_dieta_ac8ed1b49d5718974aaa25d6260dfe664}{calorias}};\ }
+\DoxyCodeLine{00041\ \}\ \mbox{\hyperlink{struct_dieta}{Dieta}};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00052\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_plano_nutricional}{PlanoNutricional}}\ \{}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_plano_nutricional_ae81c280189d6f26c66892e0bd64225d0}{numPaciente}};\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_plano_nutricional_ac0bfad8d0e883974294739763dc0ead8}{data}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct_plano_nutricional_a36e3fe8b56f0594b51046496f67d412c}{refeicao}}[\mbox{\hyperlink{_paciente_8h_a0240ac851181b84ac374872dc5434ee4}{N}}];\ }
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_plano_nutricional_a2bff64cd53606d1dc39b7be2b1b636e7}{calMAX}};\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_plano_nutricional_a64d6ec0c36a288e58d177dbaf8834e63}{calMIN}};\ }
+\DoxyCodeLine{00058\ \}\ \mbox{\hyperlink{struct_plano_nutricional}{PlanoNutricional}};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#pragma\ region\ Pacientes\ que\ ultrapassam\ determinadas\ calorias\ }}
+\DoxyCodeLine{00063\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_paciente_8h_af476b82c14b923505206dd2aa142f211}{numPacientesUltrapassaram}}(\mbox{\hyperlink{struct_dieta}{Dieta}}\ dieta[],\ \textcolor{keywordtype}{int}\ tamanhoDieta,\ \textcolor{keywordtype}{int}\ valorUltrapassar,\ \textcolor{keywordtype}{char}\ dataInicio[],\ \textcolor{keywordtype}{char}\ dataFim[]);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ \textcolor{preprocessor}{\#pragma\ region\ Pacientes\ fora\ do\ limite\ }}
+\DoxyCodeLine{00068\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_paciente_8h_aa50076839db60addb6622589fee2da91}{PacientesForaLimites}}(\mbox{\hyperlink{struct_plano_nutricional}{PlanoNutricional}}\ plano[],\ \textcolor{keywordtype}{int}\ tamanhoPlano,\ \mbox{\hyperlink{struct_dieta}{Dieta}}\ dieta[],\ \textcolor{keywordtype}{int}\ tamanhoDieta,\ \textcolor{keywordtype}{char}\ dataInicio[],\ \textcolor{keywordtype}{char}\ dataFim[]);}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#pragma\ region\ Listar\ plano}}
+\DoxyCodeLine{00073\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_paciente_8h_ad5c4c49ea3409e69e3e40eaf78de71b3}{listarPlano}}(\textcolor{keywordtype}{int}\ numPaciente,\ \mbox{\hyperlink{struct_plano_nutricional}{PlanoNutricional}}\ plano[],\ \textcolor{keywordtype}{int}\ tamanhoPlano,\ \textcolor{keywordtype}{char}\ dataInicio[],\ \textcolor{keywordtype}{char}\ dataFim[]);}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00075\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#pragma\ region\ Media\ de\ calorias\ consumidas\ por\ Paciente\ em\ determinada\ refeicao}}
+\DoxyCodeLine{00078\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{_paciente_8h_a816a7cfc78f042866c8eb390cdd5a725}{MediaCalorias}}(\textcolor{keywordtype}{int}\ numPaciente,\ \mbox{\hyperlink{struct_dieta}{Dieta}}\ dieta[],\ \textcolor{keywordtype}{int}\ tamanhoDieta,\ \textcolor{keywordtype}{char}\ refeicao[],\ \textcolor{keywordtype}{char}\ dataInicio[],\ \textcolor{keywordtype}{char}\ dataFim[]);}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \textcolor{preprocessor}{\#pragma\ region\ Tabela}}
+\DoxyCodeLine{00083\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{_paciente_8h_ae37bca207fa08112010f901a32ddc32b}{MostrarTabela}}(\mbox{\hyperlink{struct_dieta}{Dieta}}\ dieta[],\ \textcolor{keywordtype}{int}\ tamanhoDieta,\ \mbox{\hyperlink{struct_plano_nutricional}{PlanoNutricional}}\ plano[],\ \textcolor{keywordtype}{int}\ tamanhoPlano,\ \mbox{\hyperlink{struct_paciente}{Paciente}}\ pacientes[],\ \textcolor{keywordtype}{int}\ tamanhoPacientes,\ \textcolor{keywordtype}{char}\ inicio[],\ \textcolor{keywordtype}{char}\ fim[]);}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ }
+
+\end{DoxyCode}

@@ -1,0 +1,156 @@
+\doxysection{Referência ao ficheiro Gestao\+Ficheiros.\+h}
+\hypertarget{_gestao_ficheiros_8h}{}\label{_gestao_ficheiros_8h}\index{GestaoFicheiros.h@{GestaoFicheiros.h}}
+{\ttfamily \#include "{}global.\+h"{}}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_gestao_ficheiros_8h_a0240ac851181b84ac374872dc5434ee4}{N}}~20
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_gestao_ficheiros_8h_ae4489a51f13789ed0444fa662481d39b}{Importar\+Pacientes}} (char nome\+Ficeiro\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_paciente}{Paciente}} pacientes\mbox{[}$\,$\mbox{]}, int maximo\+Pacientes)
+\begin{DoxyCompactList}\small\item\em Importa informacoes de pacientes a partir de um arquivo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_gestao_ficheiros_8h_a8b4d07a1b196d9aa0bab5a814bb3383c}{Converter\+Paciente\+Binario}} (char nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_paciente}{Paciente}} pacientes\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Converte dados da estrutura \doxylink{struct_paciente}{Paciente} para um arquivo binario. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_gestao_ficheiros_8h_a35fdd1d7c951afa2834b290968ea5707}{Importar\+Info\+Dieta}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_paciente}{Paciente}} dieta\mbox{[}$\,$\mbox{]}, int tamanho)
+\item 
+bool \mbox{\hyperlink{_gestao_ficheiros_8h_aab33fae042ad0ecf44c82cd6ef28afa5}{Converter\+Info\+Dieta\+Binario}} (char nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_dieta}{Dieta}} dieta\mbox{[}$\,$\mbox{]}, int tamanho)
+\begin{DoxyCompactList}\small\item\em Converte dados de dieta para um arquivo binario. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_gestao_ficheiros_8h_a87942eaf4cb1cea8ba70dae2f9199aa8}{Importar\+Plano\+Nutricional}} (char nome\+Ficheiro\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_paciente}{Paciente}} plano\mbox{[}$\,$\mbox{]}, int tamanho)
+\item 
+bool \mbox{\hyperlink{_gestao_ficheiros_8h_af7bba1b8a514d5a07f2e9901d4fde149}{Converter\+Plano\+Nutricional\+Binario}} (char nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}} plano\mbox{[}$\,$\mbox{]}, int tamanho)
+\begin{DoxyCompactList}\small\item\em Converte dados do \doxylink{struct_plano_nutricional}{Plano\+Nutricional} para um arquivo binario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Autor}
+Joao Barbosa 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Data}
+21.\+12.\+2023 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Joao Barbosa, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Documentação das macros}
+\Hypertarget{_gestao_ficheiros_8h_a0240ac851181b84ac374872dc5434ee4}\label{_gestao_ficheiros_8h_a0240ac851181b84ac374872dc5434ee4} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!N@{N}}
+\index{N@{N}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{N}{N}}
+{\footnotesize\ttfamily \#define N~20}
+
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{_gestao_ficheiros_8h_aab33fae042ad0ecf44c82cd6ef28afa5}\label{_gestao_ficheiros_8h_aab33fae042ad0ecf44c82cd6ef28afa5} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ConverterInfoDietaBinario@{ConverterInfoDietaBinario}}
+\index{ConverterInfoDietaBinario@{ConverterInfoDietaBinario}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ConverterInfoDietaBinario()}{ConverterInfoDietaBinario()}}
+{\footnotesize\ttfamily bool Converter\+Info\+Dieta\+Binario (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_dieta}{Dieta}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho }\end{DoxyParamCaption})}
+
+
+
+Converte dados de dieta para um arquivo binario. 
+
+Esta funcao recebe um array de estruturas \doxylink{struct_dieta}{Dieta} e o numero total de elementos (tamanho). Em seguida, ela cria um arquivo binario e escreve os dados da estrutura \doxylink{struct_dieta}{Dieta} no formato binario. O arquivo resultante e util para armazenar dados de dieta de forma compacta e eficiente.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Ficheiro\+Binario} & Nome do arquivo binario a ser criado. \\
+\hline
+{\em dieta} & Array de estruturas \doxylink{struct_dieta}{Dieta} contendo os dados a serem convertidos. \\
+\hline
+{\em tamanho} & Numero total de elementos no array. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+true se a conversao foi bem-\/sucedida, false em caso de erro. 
+\end{DoxyReturn}
+\Hypertarget{_gestao_ficheiros_8h_a8b4d07a1b196d9aa0bab5a814bb3383c}\label{_gestao_ficheiros_8h_a8b4d07a1b196d9aa0bab5a814bb3383c} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ConverterPacienteBinario@{ConverterPacienteBinario}}
+\index{ConverterPacienteBinario@{ConverterPacienteBinario}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ConverterPacienteBinario()}{ConverterPacienteBinario()}}
+{\footnotesize\ttfamily bool Converter\+Paciente\+Binario (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_paciente}{Paciente}}}]{pacientes\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Converte dados da estrutura \doxylink{struct_paciente}{Paciente} para um arquivo binario. 
+
+Esta funcao recebe um array de pacientes e o numero total de pacientes (n). Em seguida, ela cria um arquivo binario e escreve os dados da estrutura \doxylink{struct_paciente}{Paciente} no formato binario. O arquivo resultante e util para armazenar dados de pacientes de forma compacta e eficiente.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Ficheiro\+Binario} & Nome do arquivo binario a ser criado. \\
+\hline
+{\em pacientes} & Array de estruturas \doxylink{struct_paciente}{Paciente} contendo os dados a serem convertidos. \\
+\hline
+{\em n} & Numero total de pacientes no array. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+true se a conversao foi bem-\/sucedida, false em caso de erro. 
+\end{DoxyReturn}
+\Hypertarget{_gestao_ficheiros_8h_af7bba1b8a514d5a07f2e9901d4fde149}\label{_gestao_ficheiros_8h_af7bba1b8a514d5a07f2e9901d4fde149} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ConverterPlanoNutricionalBinario@{ConverterPlanoNutricionalBinario}}
+\index{ConverterPlanoNutricionalBinario@{ConverterPlanoNutricionalBinario}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ConverterPlanoNutricionalBinario()}{ConverterPlanoNutricionalBinario()}}
+{\footnotesize\ttfamily bool Converter\+Plano\+Nutricional\+Binario (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\+Binario\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_plano_nutricional}{Plano\+Nutricional}}}]{plano\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho }\end{DoxyParamCaption})}
+
+
+
+Converte dados do \doxylink{struct_plano_nutricional}{Plano\+Nutricional} para um arquivo binario. 
+
+Esta funcao recebe um array de estruturas \doxylink{struct_plano_nutricional}{Plano\+Nutricional} e o numero total de elementos (tamanho). Em seguida, ela cria um arquivo binario e escreve os dados da estrutura \doxylink{struct_plano_nutricional}{Plano\+Nutricional} no formato binario. O arquivo resultante e util para armazenar dados do plano nutricional de forma compacta e eficiente.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Ficheiro\+Binario} & Nome do arquivo binario a ser criado. \\
+\hline
+{\em plano} & Array de estruturas \doxylink{struct_plano_nutricional}{Plano\+Nutricional} contendo os dados a serem convertidos. \\
+\hline
+{\em tamanho} & Numero total de elementos no array. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+true se a conversao foi bem-\/sucedida, false em caso de erro. 
+\end{DoxyReturn}
+\Hypertarget{_gestao_ficheiros_8h_a35fdd1d7c951afa2834b290968ea5707}\label{_gestao_ficheiros_8h_a35fdd1d7c951afa2834b290968ea5707} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ImportarInfoDieta@{ImportarInfoDieta}}
+\index{ImportarInfoDieta@{ImportarInfoDieta}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ImportarInfoDieta()}{ImportarInfoDieta()}}
+{\footnotesize\ttfamily int Importar\+Info\+Dieta (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_paciente}{Paciente}}}]{dieta\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho }\end{DoxyParamCaption})}
+
+\Hypertarget{_gestao_ficheiros_8h_ae4489a51f13789ed0444fa662481d39b}\label{_gestao_ficheiros_8h_ae4489a51f13789ed0444fa662481d39b} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ImportarPacientes@{ImportarPacientes}}
+\index{ImportarPacientes@{ImportarPacientes}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ImportarPacientes()}{ImportarPacientes()}}
+{\footnotesize\ttfamily int Importar\+Pacientes (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_paciente}{Paciente}}}]{pacientes\mbox{[}$\,$\mbox{]},  }\item[{int}]{maximo\+Pacientes }\end{DoxyParamCaption})}
+
+
+
+Importa informacoes de pacientes a partir de um arquivo. 
+
+Esta funcao le informacoes de pacientes de um arquivo CSV e popula um array de pacientes com os dados lidos.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em nome\+Ficheiro} & O nome do arquivo CSV contendo as informacoes dos pacientes. \\
+\hline
+{\em pacientes} & Um array de pacientes a ser preenchido com as informacoes do arquivo. \\
+\hline
+{\em maximo\+Pacientes} & O numero maximo de pacientes que podem ser lidos do arquivo.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna o numero de pacientes importados com sucesso. Retorna 0 se houver um erro ao abrir o arquivo ou se nao houver pacientes a serem lidos. 
+\end{DoxyReturn}
+\Hypertarget{_gestao_ficheiros_8h_a87942eaf4cb1cea8ba70dae2f9199aa8}\label{_gestao_ficheiros_8h_a87942eaf4cb1cea8ba70dae2f9199aa8} 
+\index{GestaoFicheiros.h@{GestaoFicheiros.h}!ImportarPlanoNutricional@{ImportarPlanoNutricional}}
+\index{ImportarPlanoNutricional@{ImportarPlanoNutricional}!GestaoFicheiros.h@{GestaoFicheiros.h}}
+\doxysubsubsection{\texorpdfstring{ImportarPlanoNutricional()}{ImportarPlanoNutricional()}}
+{\footnotesize\ttfamily int Importar\+Plano\+Nutricional (\begin{DoxyParamCaption}\item[{char}]{nome\+Ficheiro\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{struct_paciente}{Paciente}}}]{plano\mbox{[}$\,$\mbox{]},  }\item[{int}]{tamanho }\end{DoxyParamCaption})}
+

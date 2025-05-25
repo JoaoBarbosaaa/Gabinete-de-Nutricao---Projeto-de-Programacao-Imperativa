@@ -1,0 +1,185 @@
+\begin{theindex}
+
+  \item {alimento}
+    \subitem {Dieta}, \hyperpage{5}
+
+  \indexspace
+
+  \item {calcularMediaCalMax}
+    \subitem {funcoes.c}, \hyperpage{10}
+  \item {calcularMediaCalMin}
+    \subitem {funcoes.c}, \hyperpage{10}
+  \item {calcularMediaCalorias}
+    \subitem {funcoes.c}, \hyperpage{11}
+  \item {calMAX}
+    \subitem {PlanoNutricional}, \hyperpage{7}
+  \item {calMIN}
+    \subitem {PlanoNutricional}, \hyperpage{7}
+  \item {calorias}
+    \subitem {Dieta}, \hyperpage{5}
+  \item {ConverterInfoDietaBinario}
+    \subitem {GestaoFicheiros.c}, \hyperpage{15}
+    \subitem {GestaoFicheiros.h}, \hyperpage{19}
+  \item {ConverterPacienteBinario}
+    \subitem {GestaoFicheiros.c}, \hyperpage{15}
+    \subitem {GestaoFicheiros.h}, \hyperpage{19}
+  \item {ConverterPlanoNutricionalBinario}
+    \subitem {GestaoFicheiros.c}, \hyperpage{16}
+    \subitem {GestaoFicheiros.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {data}
+    \subitem {Dieta}, \hyperpage{5}
+    \subitem {PlanoNutricional}, \hyperpage{8}
+  \item {Dieta}, \hyperpage{5}
+    \subitem {alimento}, \hyperpage{5}
+    \subitem {calorias}, \hyperpage{5}
+    \subitem {data}, \hyperpage{5}
+    \subitem {numPaciente}, \hyperpage{6}
+    \subitem {Paciente.h}, \hyperpage{29}
+    \subitem {refeicao}, \hyperpage{6}
+
+  \indexspace
+
+  \item {false}
+    \subitem {global.h}, \hyperpage{22}
+  \item {funcoes.c}, \hyperpage{9}
+    \subitem {calcularMediaCalMax}, \hyperpage{10}
+    \subitem {calcularMediaCalMin}, \hyperpage{10}
+    \subitem {calcularMediaCalorias}, \hyperpage{11}
+    \subitem {listarPlano}, \hyperpage{11}
+    \subitem {MediaCalorias}, \hyperpage{12}
+    \subitem {MostrarTabela}, \hyperpage{12}
+    \subitem {numPacientesUltrapassaram}, \hyperpage{13}
+    \subitem {PacientesForaLimites}, \hyperpage{14}
+
+  \indexspace
+
+  \item {GestaoFicheiros.c}, \hyperpage{14}
+    \subitem {ConverterInfoDietaBinario}, \hyperpage{15}
+    \subitem {ConverterPacienteBinario}, \hyperpage{15}
+    \subitem {ConverterPlanoNutricionalBinario}, \hyperpage{16}
+    \subitem {ImportarInfoDieta}, \hyperpage{16}
+    \subitem {ImportarPacientes}, \hyperpage{17}
+    \subitem {ImportarPlanoNutricional}, \hyperpage{17}
+  \item {GestaoFicheiros.h}, \hyperpage{18}
+    \subitem {ConverterInfoDietaBinario}, \hyperpage{19}
+    \subitem {ConverterPacienteBinario}, \hyperpage{19}
+    \subitem {ConverterPlanoNutricionalBinario}, \hyperpage{20}
+    \subitem {ImportarInfoDieta}, \hyperpage{20}
+    \subitem {ImportarPacientes}, \hyperpage{20}
+    \subitem {ImportarPlanoNutricional}, \hyperpage{21}
+    \subitem {N}, \hyperpage{19}
+  \item {global.h}, \hyperpage{21}
+    \subitem {false}, \hyperpage{22}
+    \subitem {K}, \hyperpage{22}
+    \subitem {MAX\_DATAS}, \hyperpage{22}
+    \subitem {MAX\_PACIENTES}, \hyperpage{22}
+    \subitem {N}, \hyperpage{22}
+    \subitem {true}, \hyperpage{22}
+    \subitem {X}, \hyperpage{22}
+
+  \indexspace
+
+  \item {ImportarInfoDieta}
+    \subitem {GestaoFicheiros.c}, \hyperpage{16}
+    \subitem {GestaoFicheiros.h}, \hyperpage{20}
+  \item {ImportarPacientes}
+    \subitem {GestaoFicheiros.c}, \hyperpage{17}
+    \subitem {GestaoFicheiros.h}, \hyperpage{20}
+  \item {ImportarPlanoNutricional}
+    \subitem {GestaoFicheiros.c}, \hyperpage{17}
+    \subitem {GestaoFicheiros.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {K}
+    \subitem {global.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {listarPlano}
+    \subitem {funcoes.c}, \hyperpage{11}
+    \subitem {Paciente.h}, \hyperpage{29}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.c}, \hyperpage{24}
+  \item {main.c}, \hyperpage{23}
+    \subitem {main}, \hyperpage{24}
+  \item {MAX\_DATAS}
+    \subitem {global.h}, \hyperpage{22}
+  \item {MAX\_PACIENTES}
+    \subitem {global.h}, \hyperpage{22}
+  \item {MediaCalorias}
+    \subitem {funcoes.c}, \hyperpage{12}
+    \subitem {Paciente.h}, \hyperpage{30}
+  \item {MostrarTabela}
+    \subitem {funcoes.c}, \hyperpage{12}
+    \subitem {Paciente.h}, \hyperpage{30}
+
+  \indexspace
+
+  \item {N}
+    \subitem {GestaoFicheiros.h}, \hyperpage{19}
+    \subitem {global.h}, \hyperpage{22}
+    \subitem {Paciente.h}, \hyperpage{28}
+  \item {nome}
+    \subitem {Paciente}, \hyperpage{6}
+  \item {numPaciente}
+    \subitem {Dieta}, \hyperpage{6}
+    \subitem {Paciente}, \hyperpage{6}
+    \subitem {PlanoNutricional}, \hyperpage{8}
+  \item {numPacientesUltrapassaram}
+    \subitem {funcoes.c}, \hyperpage{13}
+    \subitem {Paciente.h}, \hyperpage{31}
+
+  \indexspace
+
+  \item {Paciente}, \hyperpage{6}
+    \subitem {nome}, \hyperpage{6}
+    \subitem {numPaciente}, \hyperpage{6}
+    \subitem {Paciente.h}, \hyperpage{29}
+    \subitem {telemovel}, \hyperpage{7}
+  \item {Paciente.h}, \hyperpage{27}
+    \subitem {Dieta}, \hyperpage{29}
+    \subitem {listarPlano}, \hyperpage{29}
+    \subitem {MediaCalorias}, \hyperpage{30}
+    \subitem {MostrarTabela}, \hyperpage{30}
+    \subitem {N}, \hyperpage{28}
+    \subitem {numPacientesUltrapassaram}, \hyperpage{31}
+    \subitem {Paciente}, \hyperpage{29}
+    \subitem {PacientesForaLimites}, \hyperpage{31}
+    \subitem {PlanoNutricional}, \hyperpage{29}
+  \item {PacientesForaLimites}
+    \subitem {funcoes.c}, \hyperpage{14}
+    \subitem {Paciente.h}, \hyperpage{31}
+  \item {PlanoNutricional}, \hyperpage{7}
+    \subitem {calMAX}, \hyperpage{7}
+    \subitem {calMIN}, \hyperpage{7}
+    \subitem {data}, \hyperpage{8}
+    \subitem {numPaciente}, \hyperpage{8}
+    \subitem {Paciente.h}, \hyperpage{29}
+    \subitem {refeicao}, \hyperpage{8}
+
+  \indexspace
+
+  \item {refeicao}
+    \subitem {Dieta}, \hyperpage{6}
+    \subitem {PlanoNutricional}, \hyperpage{8}
+
+  \indexspace
+
+  \item {telemovel}
+    \subitem {Paciente}, \hyperpage{7}
+  \item {true}
+    \subitem {global.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {X}
+    \subitem {global.h}, \hyperpage{22}
+
+\end{theindex}
